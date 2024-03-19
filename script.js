@@ -204,6 +204,12 @@ const observer3 = new IntersectionObserver((entries, observer) => {
                 easing: 'easeInOutExpo',
             })
             anime({
+                targets: '.highlighter',
+                backgroundColor: 'yellow',
+                duration: 1000,
+                easing: 'easeInOutExpo',
+            })
+            anime({
                 targets: 'svg, path',
                 fill: '#000',
                 duration: 1000,
