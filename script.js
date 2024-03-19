@@ -205,7 +205,7 @@ const observer3 = new IntersectionObserver((entries, observer) => {
             })
             anime({
                 targets: '.highlighter',
-                backgroundColor: 'yellow',
+                backgroundColor: '#ffff00',
                 duration: 1000,
                 easing: 'easeInOutExpo',
             })
